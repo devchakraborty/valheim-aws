@@ -119,7 +119,7 @@ No modules.
 | <a name="input_server_pass"></a> [server\_pass](#input\_server\_pass) | The password to use for server login | `string` | `"secret"` | no |
 | <a name="input_server_port"></a> [server\_port](#input\_server\_port) | The UDP port to use | `number` | `2456` | no |
 | <a name="input_server_public"></a> [server\_public](#input\_server\_public) | Whether to make the server public | `bool` | `true` | no |
-| <a name="input_state"></a> [state](#input\_state) | Target state of the server | `string` | `"running"` | no |
+| <a name="input_state"></a> [state](#input\_state) | Target state of the server ('running', 'paused', or 'stopped') | `string` | `"running"` | no |
 | <a name="input_status_http_conf"></a> [status\_http\_conf](#input\_status\_http\_conf) | The path to the busybox httpd config file | `string` | `"/config/httpd.conf"` | no |
 | <a name="input_status_http_htdocs"></a> [status\_http\_htdocs](#input\_status\_http\_htdocs) | Path to the status httpd htdocs where status.json is written | `string` | `"/opt/valheim/htdocs"` | no |
 | <a name="input_status_http_port"></a> [status\_http\_port](#input\_status\_http\_port) | The port to use for the status HTTP server | `number` | `80` | no |

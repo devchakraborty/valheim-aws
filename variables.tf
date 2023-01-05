@@ -30,7 +30,7 @@ variable "vcpus" {
 }
 
 variable "state" {
-  description = "Target state of the server"
+  description = "Target state of the server ('running', 'paused', or 'stopped')"
   type        = string
   default     = "running"
 
