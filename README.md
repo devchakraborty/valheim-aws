@@ -148,6 +148,7 @@ No modules.
 | Name | Description |
 |------|-------------|
 | <a name="output_domain_name"></a> [domain\_name](#output\_domain\_name) | The domain name of the Valheim server |
+| <a name="output_efs_dns_name"></a> [efs\_dns\_name](#output\_efs\_dns\_name) | The DNS name of the EFS file system used by the Valheim server |
 | <a name="output_iam_role_name"></a> [iam\_role\_name](#output\_iam\_role\_name) | The name of the IAM role used by the Valheim server |
 | <a name="output_security_group_id"></a> [security\_group\_id](#output\_security\_group\_id) | The ID of the security group used by the Valheim server |
 | <a name="output_server_ip"></a> [server\_ip](#output\_server\_ip) | The IP address of the Valheim server |

@@ -17,3 +17,8 @@ output "iam_role_name" {
   value       = aws_iam_role.main.name
   description = "The name of the IAM role used by the Valheim server"
 }
+
+output "efs_dns_name" {
+  value       = aws_efs_file_system.server.dns_name
+  description = "The DNS name of the EFS file system used by the Valheim server"
+}
