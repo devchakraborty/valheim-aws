@@ -22,3 +22,8 @@ output "efs_dns_name" {
   value       = aws_efs_file_system.server.dns_name
   description = "The DNS name of the EFS file system used by the Valheim server"
 }
+
+output "ecs_cluster_name" {
+  value       = aws_ecs_cluster.server.name
+  description = "The name of the ECS cluster used by the Valheim server"
+}
